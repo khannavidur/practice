@@ -1,6 +1,6 @@
 //Dynamically allocating space for 1D Array
 char * buffer;
-buffer = (char*) malloc (i+1);
+buffer = (char*) malloc (10*sizeof(char *));
 
 //Dynamically allocating space for 2D Array
 int **arr = (int **)malloc(r * sizeof(int *));
